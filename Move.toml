@@ -1,0 +1,17 @@
+[package]
+name = "heritage_guardian"
+version = "1.0.0"
+authors = []
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[addresses]
+TourathCoin = '0x1'
+CIDStorage = '0x1'
+Crowdfunding  = '0x1'
+
+
+
